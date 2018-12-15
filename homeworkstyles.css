@@ -97,16 +97,17 @@ body{
     margin-right:90%;
 }
 
-.hiddenBox{
+#hiddenBox{
     border: black solid 3px;
-    z-index: 2;
+    z-index: 1;
     font-size: 14px;
     position: relative;
     max-width: 300px;
     height: auto;
-    left:725px;
+    left:100px;
     top:100px;
     background-color: white;
+    color: red;
     opacity: 0;
 }
 
@@ -199,15 +200,19 @@ select{
     border-radius: 3px;
     margin-left: 1px;
 }
-.cRow7Col2{
+#cRow7Col2{
     font-size: 10px;
     text-decoration: none;
 }
-.cRow7Col2:hover ~ .hiddenBox{
-    text-decoration: underline;
-    opacity:1;
-    
+
+#hoverMe a{
+    color: blue;
 }
+#hoverMe a:hover ~#hiddenBox{
+    opacity:1;
+    color: greenyellow;
+}
+
 
 .gender{
 

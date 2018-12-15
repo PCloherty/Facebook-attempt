@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<style>
+#box{
+    margin:10px 100px 10px 100px;
+    padding:100px;
+    border:double 2px green;
+    opacity:0;
+}
+
+/*hover the mouse on #hoverme and see the background colour change in #box*/
+#hoverme:hover ~#box{
+    background:#ccc;
+    opacity:1;
+}
+</style>
+</head>
+<body>
+    <div id="hoverme"><p>hover mouse over this</p>
+    </div>
+    <div id="box"><p>This is a demonstration of how to target div by hovering a mouse on a different div ID</p></div>
+</body>
+</html>    

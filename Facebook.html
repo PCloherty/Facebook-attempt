@@ -4,6 +4,8 @@
     <title>Facebook Login</title>
     
     <link type="text/css" rel="stylesheet" href="homeworkstyles.css"/>
+
+
 </head>
 <body>
    
@@ -64,12 +66,8 @@
                 <td class="leftColumn">
                     <h3>Facebook helps you connect and share <br/>with the people in your life.</h3>
                     <div class="global"><img class="globe" src="globe.png" alt="Connecting People"></div>
-                    <div class="hiddenBox"> 
-                            <p><span>Providing your date of birth</span> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our Data Policy.</p>
-                            <hr/>
-                            <input class="yDOB" type="submit" name="yDOB" value="ok">
+                   
                     
-                        </div>
                 </td>
                 <td class="rightColumn">
                 
@@ -164,10 +162,21 @@
                                 <option value="1999">1999</option>
                                 </select></div>
                         </td>
+
+
                         <td >
-                            <div class="cRow7Col2">
-                                <a>Why do I need to provide <br/>my date of birth</a>
+                            <div id="cRow7Col2">
+                                    <div id="hoverMe"><a>Why do I need to provide <br/>my date of birth</a>
+                                    <div id="hiddenBox"> 
+                                            <p><span>Providing your date of birth</span> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our Data Policy.</p>
+                                            <hr/>
+                                            <input class="yDOB" type="submit" name="yDOB" value="ok">
+                                    
+                                    </div>
+                                    </div>
                             </div>
+
+
                         </td></tr>
                         <tr ><td class="gender" colspan="2">
                             <input type="radio" name="genderM" value="male"/><label class="cRow8M" for="male">Male</label>

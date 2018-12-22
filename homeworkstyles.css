@@ -17,6 +17,25 @@ body{
     hRow2Col1   =column one of the first row of the table positioned in the header
     cRow1       =row one of the table positioned in the table nested in content class
     cRow7Col2   =column two of the seventh row in the table nested in content class
+
+    /*-------welcome-------*/
+#welcome {
+   height:10px;
+}
+
+.test1 {
+    width: 100%;
+    min-height: 500px;
+    border: 3px solid red;
+    position: relative;
+    z-index: 2;
+    right:10px;
+    bottom:10px;
+    background-color:blue;
+    opacity:0.5;
+}
+
+
 /*---------------------------------Header---------------------------*/
 #header{
     position: absolute;
@@ -71,8 +90,9 @@ body{
 /*---------------------------------Body-----------------------------*/
 
 .content{
+    
     border: solid 3px aqua;
-    margin-top: 100px;
+    margin-top: 90px;
     align-content: center;
     height: 100px;
     left: 0px;
@@ -198,7 +218,7 @@ select{
     max-width: 300px;
     height: auto;
     right:200px;
-    /*bottom: 100px;*/
+    bottom: 100px;
     background-color: white;
     
     opacity: 0;

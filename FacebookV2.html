@@ -46,29 +46,26 @@
     </div>
      
      <!--content-->
-                    <div class="tab">
-                        <button class="tablinks" onclick="openTab(event, 'Facebook')">Facebook</button>
-                        <button class="tablinks" onclick="openTab(event, 'Instagram')">Instagram</button>
-                        <button class="tablinks" onclick="openTab(event, 'Whatsapp')">Whatsapp</button>
-                    </div>
+    <div class="tab">
+        <button class="tablinks" id="facebookButton" onclick="openCity(event, 'Facebook')">f</button>
+        <button class="tablinks" onclick="openCity(event, 'Instagram')">Instagram</button>
+        <button class="tablinks" onclick="openCity(event, 'Whatsapp')">Whatsapp</button>
+    </div>
 
-                    <div id="Facebook" class="tabcontent">
-                        
-                        <h3>Facebook helps you connect and share with the people in your life.</h3>
-                        <br />
-                        <div class="newUserSignUp">
+    <div id="Facebook" class="tabcontent">
+        <h3>Facebook</h3>
+        <p>London is the capital city of England.</p>
+    </div>
 
-                        </div>
+    <div id="Instagram" class="tabcontent">
+        <h3>Instagram</h3>
+        <p>Paris is the capital of France.</p>
+    </div>
 
-                    <div id="Instagram" class="tabcontent">
-                        <h3>Paris</h3>
-                        <p>Paris is the capital of France.</p>
-                    </div>
-
-                    <div id="Whatsapp" class="tabcontent">
-                        <h3>Tokyo</h3>
-                        <p>Tokyo is the capital of Japan.</p>
-                    </div>
+    <div id="Whatsapp" class="tabcontent">
+        <h3>Whatsapp</h3>
+        <p>Tokyo is the capital of Japan.</p>
+    </div>
 
 
 
@@ -273,9 +270,9 @@
     </footer>
     <br/>
 </div>
-
+    -->
     <script>
-        function openTab(evt, feature) {
+        function openCity(evt, cityName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tabcontent");
             for (i = 0; i < tabcontent.length; i++) {
@@ -285,7 +282,7 @@
             for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
             }
-            document.getElementById(feature).style.display = "block";
+            document.getElementById(cityName).style.display = "block";
             evt.currentTarget.className += " active";
         }
     </script>

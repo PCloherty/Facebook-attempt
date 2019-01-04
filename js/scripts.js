@@ -6,4 +6,8 @@ $("cRow7Col2").hover(function(){
     $(hiddenBox).css("opacity", 1);
     }, function(){
     $(hiddenBox).css("opacity", 0);
-  });
+    });
+
+function welcomeClose() {
+    document.getElementsByClassName(welcomeBody).style.opacity = '0';
+}

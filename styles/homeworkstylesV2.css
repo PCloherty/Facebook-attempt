@@ -458,19 +458,21 @@ span{
 /*---------------------------Whatsapp web---------------------*/
 
 #Whatsapp {
-    background-color: #1EBEA5;
-    text-align:center;
+    background-color: #d2d8d5;
+    text-align: center;
     display: none;
     padding: 6px 12px;
     border-top: none;
     margin-left: 200px;
     margin-right: 200px;
-    
 }
 #Whatsapp p{
     display:inline;
 }
-
+.whatsappGreen {
+    background-color: #1ebea5;
+    border: 5px #1ebea5;
+}
 /*<div id="Whatsapp" class="tabcontent">
         <h3>Whatsapp</h3>
         <h4>To use Whatsapp on your PC</h4>
@@ -484,11 +486,8 @@ span{
         <p>Keep me signed in</p>
 
     </div>*/
-
-
-
-        /*------------------------------Footer-----------------------------*/
-        footer{
+/*------------------------------Footer-----------------------------*/
+footer {
     left: 0;
     background: white;
     height: 300px;
@@ -500,10 +499,7 @@ span{
     color: #365899;
     font-size: 12px;
     display: block;
-    position:relative;
-    
-       
-    
+    position: relative;
 }
 
 footer li{

@@ -46,177 +46,217 @@
     </div>
      
      <!--content-->
+    <!--tabs-->
     <div class="tab">
         <button class="tablinks" id="facebookButton" onclick="openCity(event, 'Facebook')">f</button>
-        <button class="tablinks" onclick="openCity(event, 'Instagram')">Instagram</button>
-        <button class="tablinks" onclick="openCity(event, 'Whatsapp')">Whatsapp</button>
+        <button class="tablinks" id="instagramButton" onclick="openCity(event, 'Instagram')"><svg>
+                <path xmlns="http://www.w3.org/2000/svg" id="path4" d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+        </button>
+        <button class="tablinks" id="whatsappButton" onclick="openCity(event, 'Whatsapp')"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="90px" height="90px" viewBox="0 0 90 90" style="enable-background:new 0 0 90 90;" xml:space="preserve">
+        <path d="M90,43.841c0,24.213-19.779,43.841-44.182,43.841c-7.747,0-15.025-1.98-21.357-5.455L0,90l7.975-23.522   c-4.023-6.606-6.34-14.354-6.34-22.637C1.635,19.628,21.416,0,45.818,0C70.223,0,90,19.628,90,43.841z M45.818,6.982   c-20.484,0-37.146,16.535-37.146,36.859c0,8.065,2.629,15.534,7.076,21.61L11.107,79.14l14.275-4.537   c5.865,3.851,12.891,6.097,20.437,6.097c20.481,0,37.146-16.533,37.146-36.857S66.301,6.982,45.818,6.982z M68.129,53.938   c-0.273-0.447-0.994-0.717-2.076-1.254c-1.084-0.537-6.41-3.138-7.4-3.495c-0.993-0.358-1.717-0.538-2.438,0.537   c-0.721,1.076-2.797,3.495-3.43,4.212c-0.632,0.719-1.263,0.809-2.347,0.271c-1.082-0.537-4.571-1.673-8.708-5.333   c-3.219-2.848-5.393-6.364-6.025-7.441c-0.631-1.075-0.066-1.656,0.475-2.191c0.488-0.482,1.084-1.255,1.625-1.882   c0.543-0.628,0.723-1.075,1.082-1.793c0.363-0.717,0.182-1.344-0.09-1.883c-0.27-0.537-2.438-5.825-3.34-7.977   c-0.902-2.15-1.803-1.792-2.436-1.792c-0.631,0-1.354-0.09-2.076-0.09c-0.722,0-1.896,0.269-2.889,1.344   c-0.992,1.076-3.789,3.676-3.789,8.963c0,5.288,3.879,10.397,4.422,11.113c0.541,0.716,7.49,11.92,18.5,16.223   C58.2,65.771,58.2,64.336,60.186,64.156c1.984-0.179,6.406-2.599,7.312-5.107C68.398,56.537,68.398,54.386,68.129,53.938z" /></svg>
+        </button>
     </div>
-
+    <!--facebook sign in tab-->
     <div id="Facebook" class="tabcontent">
-        <h3>Facebook</h3>
-        <p>London is the capital city of England.</p>
-    </div>
+        <div class="facebookContent">
 
-    <div id="Instagram" class="tabcontent">
-        <h3>Instagram</h3>
-        <p>Paris is the capital of France.</p>
-    </div>
-
-    <div id="Whatsapp" class="tabcontent">
-        <h3>Whatsapp</h3>
-        <p>Tokyo is the capital of Japan.</p>
-    </div>
-
-
-
-
-<!--
-
-
-
-
-
-
-
-
-
-
-                    <h3>Facebook helps you connect and share with the people in your life.</h3>
-                    <br/>
-                    <div class="newUserSignUp">
-                    <table bordercolor="green" border="5" >
-                        <tr><td colspan="2"><H3 class="cRow1">Create an account</H3>
-                        </td></tr>
-                        <tr><td colspan="2" ><p class="cRow2">Its free and always will be*</p>
-                        </td></tr>
-                        <tr><td><input class="cRow3Col1" type="text" name="newUserFN" placeholder="First name"/></td>
-                            <td><input class="cRow3Col2" type="text" name="newUserSN" placeholder="Second Name"/></td>
-                        </tr> 
-                        <tr><td colspan="2"><input class="cRow4" type="text" name="newUserME" placeholder="Mobile number or Email address"/>
-                        </td></tr>
-                        <tr><td colspan="2"><input class="cRow5" type="password" name="newUserPW" placeholder="New Password"/>
-                        </td></tr>
-                        <tr><td colspan="2" ><p class="cRow6">Birthday</p>
-                        </td></tr>
-                        <tr><td><div class="cRow7Col1"><select name="bDDay" >
-                                <option value="day">Day</option>
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
+            <div class="newUserSignUp">
+                <table border="1" border-colour="red">
+                    <tr>
+                        <td colspan="2">
+                            <H3 class="cRow1">Create an account</H3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="cRow2">Its free and always will be*</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><input class="cRow3Col1" type="text" name="newUserFN" placeholder="First name" /></td>
+                        <td><input class="cRow3Col2" type="text" name="newUserSN" placeholder="Second Name" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input class="cRow4" type="text" name="newUserME" placeholder="Mobile number or Email address" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input class="cRow5" type="password" name="newUserPW" placeholder="New Password" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <p class="cRow6">Birthday</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="cRow7Col1">
+                                <select name="bDDay">
+                                    <option value="day">Day</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                    <option value="13">13</option>
+                                    <option value="14">14</option>
+                                    <option value="15">15</option>
+                                    <option value="16">16</option>
+                                    <option value="17">17</option>
+                                    <option value="18">18</option>
+                                    <option value="19">19</option>
+                                    <option value="20">20</option>
+                                    <option value="21">21</option>
+                                    <option value="22">22</option>
+                                    <option value="23">23</option>
+                                    <option value="24">24</option>
+                                    <option value="25">25</option>
+                                    <option value="26">26</option>
+                                    <option value="27">27</option>
+                                    <option value="28">28</option>
+                                    <option value="29">29</option>
+                                    <option value="30">30</option>
+                                    <option value="31">31</option>
                                 </select>
-                                <!--break->
+                                <!--break-->
                                 <select name="bDmonth">
-                                <option value="month">Month</option>
-                                <option value="January">January</option>
-                                <option value="February">February</option>
-                                <option value="March">March</option>
-                                <option value="April">April</option>
-                                <option value="May">May</option>
-                                <option value="June">June</option>
-                                <option value="July">July</option>
-                                <option value="August">August</option>
-                                <option value="September">September</option>
-                                <option value="October">October</option>
-                                <option value="November">November</option>
-                                <option value="December">December</option>
+                                    <option value="month">Month</option>
+                                    <option value="January">January</option>
+                                    <option value="February">February</option>
+                                    <option value="March">March</option>
+                                    <option value="April">April</option>
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>
+                                    <option value="August">August</option>
+                                    <option value="September">September</option>
+                                    <option value="October">October</option>
+                                    <option value="November">November</option>
+                                    <option value="December">December</option>
                                 </select>
-                                <!--break->
+                                <!--break-->
 
                                 <select name="bDYear">
-                                <option value="year">Year</option>
-                                <option value="2018">2018</option>
-                                <option value="2017">2017</option>
-                                <option value="2016">2016</option>
-                                <option value="2015">2015</option>
-                                <option value="2014">2014</option>
-                                <option value="2013">2013</option>
-                                <option value="2012">2012</option>
-                                <option value="2011">2011</option>
-                                <option value="2010">2010</option>
-                                <option value="2009">2009</option>
-                                <option value="2008">2008</option>
-                                <option value="2007">2007</option>
-                                <option value="2006">2006</option>
-                                <option value="2005">2005</option>
-                                <option value="2004">2004</option>
-                                <option value="2003">2003</option>
-                                <option value="2002">2002</option>
-                                <option value="2001">2001</option>
-                                <option value="2000">2000</option>
-                                <option value="1999">1999</option>
-                                </select></div>
+                                    <option value="year">Year</option>
+                                    <option value="2018">2018</option>
+                                    <option value="2017">2017</option>
+                                    <option value="2016">2016</option>
+                                    <option value="2015">2015</option>
+                                    <option value="2014">2014</option>
+                                    <option value="2013">2013</option>
+                                    <option value="2012">2012</option>
+                                    <option value="2011">2011</option>
+                                    <option value="2010">2010</option>
+                                    <option value="2009">2009</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2007">2007</option>
+                                    <option value="2006">2006</option>
+                                    <option value="2005">2005</option>
+                                    <option value="2004">2004</option>
+                                    <option value="2003">2003</option>
+                                    <option value="2002">2002</option>
+                                    <option value="2001">2001</option>
+                                    <option value="2000">2000</option>
+                                    <option value="1999">1999</option>
+                                </select>
+                            </div>
                         </td>
 
 
-                        <td >
+                        <td>
                             <div id="cRow7Col2">
-                                    <div id="hoverMe"><a>Why do I need to provide <br/>my date of birth</a>
-                                    <div id="hiddenBox"> 
-                                            <p><span>Providing your date of birth</span> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our Data Policy.</p>
-                                            <hr/>
-                                            <input class="yDOB" type="submit" name="yDOB" value="ok">
-                                    
+                                <div id="hoverMe">
+                                    <a>Why do I need to provide <br />my date of birth</a>
+                                    <div id="hiddenBox">
+                                        <p><span>Providing your date of birth</span> helps make sure that you get the right Facebook experience for your age. If you want to change who sees this, go to the About section of your Profile. For more details, please visit our Data Policy.</p>
+                                        <hr />
+                                        <input class="yDOB" type="submit" name="yDOB" value="ok">
+
                                     </div>
-                                    </div>
+                                </div>
                             </div>
 
 
-                        </td></tr>
-                        <tr ><td class="gender" colspan="2">
-                            <input type="radio" name="genderM" value="male"/><label class="cRow8M" for="male">Male</label>
-                            <input type="radio" name="genderF" value="female"/><label class="cRow8F" for="female">Female</label>
-                        </td></tr>
-                        <tr ><td colspan="2" >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="gender" colspan="2">
+                            <input type="radio" name="genderM" value="male" /><label class="cRow8M" for="male">Male</label>
+                            <input type="radio" name="genderF" value="female" /><label class="cRow8F" for="female">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
                             <p class="cRow9">By clicking Sign Up, you agree to our Terms. Learn how we collect, use and share your data in our Data Policy and how we use cookies and similar technology in our Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
 
-                        </td></tr>
+                        </td>
+                    </tr>
 
-                        <tr><td colspan="2" ><input class="cRow10" type="submit" name="submitNewUser" value="Sign up"/>
-                        </td></tr>
+                    <tr>
+                        <td colspan="2">
+                            <input class="cRow10" type="submit" name="submitNewUser" value="Sign up" />
+                        </td>
+                    </tr>
 
-                        <tr><td colspan="2" >
+                    <tr>
+                        <td colspan="2">
                             <h4 class="cRow11"><a href="https://www.facebook.com/pages/creation/?ref_type=registration_form">Create a page</a> for a celebrity, business or band</h4>
-                        </td></tr>
+                        </td>
+                    </tr>
 
-
-
-                    
-                    <!--<input type="text" style="height: 25px;width:100px;" name="newAccountFN" placeholder="Firstname">->
-                        
-                    </table>
-                </div>
-            </div>        
+                </table>
+            </div>
         </div>
-</div>
-   -->
+    </div>
+
+    <!--facebook over-->
+    
+    
+    
+    
+    <!--------------------------------instagram sign up---------------->
+    <div id="Instagram" class="tabcontent">
+        <form>
+        <img src="images/v2Stock/insta.png" />
+            <br />
+        <button>Login with Facebook</button>
+        <p>----------OR------------</p>
+        <input class="instaMob" type="text" placeholder="Mobile Number or Email" /><br/>
+        <input class="instaName" type="text" placeholder="Full Name" /><br />
+        <input class="instaUser" type="text" placeholder="Username" /><br />
+        <input class="instaPass" type="text" placeholder="Password" /><br />
+        <button>Next</button>
+        </form>
+     </div>
+    <!--------------------------------------Whatsappwebb------------------>
+    <div id="Whatsapp" class="tabcontent" >
+        <h3>Whatsapp</h3><br />
+        <h4>To use Whatsapp on your PC</h4><br />
+
+        <ol>
+            <li>Open Whatsapp on your Phone</li>
+            <li>Tap <strong>Menu</strong> or <strong>Settings</strong> and select <strong>WhatsApp Web</strong></li>
+            <li>Point your Phone at the screen to capture the code below</li>
+        </ol>
+        <img src="images/v2Stock/WhatsappQR.png" /><br />
+        <input type="checkbox" />
+        <p>Keep me signed in</p>
+
+    </div>
+
+
+
+
     <footer>
         <ul class="language">
             <li>Englsih (UK)</li>
@@ -270,7 +310,7 @@
     </footer>
     <br/>
 </div>
-    -->
+    
     <script>
         function openCity(evt, cityName) {
             var i, tabcontent, tablinks;

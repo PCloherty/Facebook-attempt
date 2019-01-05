@@ -102,7 +102,6 @@ opacity:1;
 .tab {
     position: relative;
     overflow: hidden;
-    border: 1px solid #ccc;/*to be removed*/
     background-color: #3b5998;
     margin-right: 380px;
     margin-left: 270px;
@@ -120,8 +119,8 @@ opacity:1;
         transition: 0.3s;
         font-size: 17px;
         height: 100px;
-        width:225px;
-        
+        width: 225px;
+        border-radius: 15px;
     }
 
 
@@ -139,51 +138,62 @@ opacity:1;
 .tabcontent {
     display: none;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
-    height: 400px;
-   
+    height: 600px;
+    margin-left:200px;
+    margin-right:200px;
 }
 
 
 /*facebook tab*/
 #facebookButton {
-    background-color: #3b5998;
-    color:white;
-    font-size:50px;
-    border-radius:15px;
+    background-color: #274177;
+    color: white;
+    font-size: 50px;
+    border-radius: 15px;
 }
-
-
-.centralContent{
-    vertical-align: text-top;
+#instagramButton {
+    align-content:center;
+    height: 100px;
+    width: 225px;
+    padding-left:100px;
+    padding-top:35px;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+#whatsappButton {
+    background-color: #40c351;
+}
+/*---------------------------------------------------------------Facebook signup------------------------------------------------*/
+.facebookContent {
     text-align: center;
-    border: 6px solid yellow;
-    color: #0e385f;
+    background-color: #274177;
     font: 20px;
-    width: 40%;
-    margin:0;
-    
-    
+    width: 100%;
+    margin: 0;
+    display: block;
 }
 
-.centralColumn h3{
+.content h3{
     position: top;
     display: block;
     margin: 10%;
 }
 
-
+/*comeback to
 @media only screen and (max-width:800px){
-    .centralColumn {position: relative;
+    .tabcontent {position: relative;
                 width: 10px;
                 opacity: 0.5;
     }
-}
+}*/
 
 
 
-.yDOB{
+#Facebook .yDOB{
     font-weight: bold;
     padding:6px;
     font-family:Arial, Helvetica, sans-serif;
@@ -196,41 +206,43 @@ opacity:1;
     border: solid 1px black;
 }
 
-.newUserSignUp{
+#Facebook .newUserSignUp{
     height:  100%;
     color:#1d2129;
 
    }
-.cRow1{
+#Facebook .cRow1{
     font-size: 48px;
     line-height: 0.1px;
     font-weight: bold;
-    color:#333;
+    color:white;
+    
 }
-.cRow2{
+#Facebook .cRow2 {
     font-size: 14px;
     line-height: 0.1px;
     font-weight: bold;
+    color: white;
 }
-.cRow3Col1{
-    width: 200px;
+#Facebook .cRow3Col1{
+    width: 175px;
     font-size:16px;
     border: grey solid 1px;
     padding: 10px 8px 10px 5px;
-    margin: 10px;
-    margin-left: 1px;
+    margin-bottom:10px;
+    margin-left: 125px;
     border-radius: 5px;
 }
-.cRow3Col2{
-    width: 200px;
-    font-size:16px;
+#Facebook .cRow3Col2 {
+    width: 175px;
+    font-size: 16px;
     border: grey solid 1px;
     padding: 10px 8px 10px 5px;
-    margin: 10px;
-    margin-left: 1px;
+    margin-bottom: 10px;
+    margin-right: 125px;
     border-radius: 5px;
 }
-.cRow4{
+#Facebook .cRow4{
     width: 495px;
     font-size:16px;
     border: grey solid 1px;
@@ -239,7 +251,7 @@ opacity:1;
     margin-left: 1px;
     border-radius: 5px;
 }
-.cRow5{
+#Facebook .cRow5{
     width: 495px;
     font-size:16px;
     border: grey solid 1px;
@@ -248,11 +260,12 @@ opacity:1;
     margin-left: 1px;
     border-radius: 5px;
 }
-.cRow6{
+#Facebook .cRow6 {
     font-size: 14;
     padding-right: 5px;
     font-weight: bold;
     margin-bottom: 5px;
+    color: white;
 }
 select{
     padding: 10px 5px;
@@ -260,13 +273,16 @@ select{
     border-radius: 3px;
     margin-left: 1px;
 }
-#cRow7Col1{
-    height: 20px;
+.cRow7Col1{
+    height: auto;
+    margin-left:150px;
 }
 #cRow7Col2{
     font-size: 10px;
     height: 20px;
     text-decoration: none;
+    margin-right:100px
+   
 }
 
 #hiddenBox{
@@ -286,7 +302,7 @@ select{
 span{
     font-weight: bold;
 }
-.yDOB{
+#Facebook .yDOB{
     font-weight: bold;
     padding:10px;
     font-family:Arial, Helvetica, sans-serif;
@@ -310,32 +326,34 @@ span{
 
 
 
-.gender{
+#Facebook .gender{
 
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
-.cRow8M{
+#Facebook .cRow8M {
     padding: 5px;
     font-size: 18px;
     border-radius: 1px;
-    
+    color: white;
 }
-.cRow8F{
+#Facebook .cRow8F {
     padding: 5px;
     font-size: 18px;
     border-radius: 1px;
-    
+    color: white;
 }
-.cRow9{
-    color:#777777;
+#Facebook .cRow9 {
+    text-align: center;
+    
     font-size: 10px;
     justify-content: left;
     padding-right: 25%;
-
+    padding-left: 25%;
+    color: white;
 }
-.cRow10{
+#Facebook .cRow10{
     padding: 10px 60px;
     border: #3b6e22 solid 1px;
     margin: 10px;
@@ -350,7 +368,7 @@ span{
     
 
 }
-.cRow10:hover{
+#Facebook .cRow10:hover{
     padding: 10px 60px;
     border: black solid 1px;
 
@@ -363,17 +381,113 @@ span{
     background:linear-gradient(#74c75f, #54a735);
     
 }
-.cRow11{
+#Facebook .cRow11{
     color: grey;
     font-size: 10px;
 
 }
 
-/*-----------------------------------------------------------------*/
+/*-------------------------------Facebook Finished--------------------------------*/
+/*--------------------------------Instagramsign up-------------------------------*/
 
-/*------------------------------Footer-----------------------------*/
 
-footer{
+#Instagram {
+    background-color:white;
+    border:red 1px solid;
+    padding-right:120px;
+    text-align:center;
+
+}
+.instaMob {
+    text-align:center;
+    width: 495px;
+    font-size: 16px;
+    border: grey solid 1px;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+.instaUser {
+    text-align: center;
+    width: 495px;
+    font-size: 16px;
+    border: grey solid 1px;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+.instaName {
+    text-align: center;
+    width: 495px;
+    font-size: 16px;
+    border: grey solid 1px;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+.instaPass {
+    text-align: center;
+    width: 495px;
+    font-size: 16px;
+    border: grey solid 1px;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+#Instagram button {
+    text-align: center;
+    width: 495px;
+    font-size: 16px;
+    border: grey solid 1px;
+    padding: 10px 10px 10px 5px;
+    margin: 10px;
+    margin-left: 1px;
+    border-radius: 5px;
+}
+       
+
+/*---------------------------instagrm end---------------------*/
+
+
+/*---------------------------Whatsapp web---------------------*/
+
+#Whatsapp {
+    background-color: #1EBEA5;
+    text-align:center;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    height: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#Whatsapp p{
+    display:inline;
+}
+
+/*<div id="Whatsapp" class="tabcontent">
+        <h3>Whatsapp</h3>
+        <h4>To use Whatsapp on your PC</h4>
+        <ol>
+            <li>Open Whatsapp on your Phone</li>
+            <li>Tap <strong>Menu</strong> or <strong>Settings</strong> and select <strong>WhatsApp Web</strong></li>
+            <li>Point your Phone at the screen to capture the code below</li>
+        </ol>
+        <img src="images/v2Stock/WhatsappQR.png" /><br />
+        <input type="checkbox" />
+        <p>Keep me signed in</p>
+
+    </div>*/
+
+
+
+        /*------------------------------Footer-----------------------------*/
+        footer{
     left: 0;
     background: white;
     height: 300px;
@@ -385,13 +499,13 @@ footer{
     color: #365899;
     font-size: 12px;
     display: block;
-    position:relative
+    position:relative;
     
        
     
 }
 
-li{
+footer li{
     margin-right: 30px;
     display: inline;
     

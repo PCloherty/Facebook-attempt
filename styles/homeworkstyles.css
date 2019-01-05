@@ -133,7 +133,7 @@ opacity:1;
 .leftColumn{
     vertical-align: text-top;
     text-align: center;
-    border: 6px solid yellow;
+
     color: #0e385f;
     font: 20px;
     width: 40%;
@@ -185,7 +185,7 @@ opacity:1;
 }
 
 .rightColumn{
-    border:3px solid red;
+
     display: inline-flex;
     width: 50%;
 
@@ -375,7 +375,6 @@ footer{
     width: auto;
     margin-left: 10%;
     margin-right: 10%;
-    border: red solid 3px;
     font-family: Arial, Helvetica, sans-serif;
     color: #365899;
     font-size: 12px;

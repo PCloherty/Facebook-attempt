@@ -59,8 +59,8 @@ opacity:1;
     opacity: 1;
 }
 .logo{
-    margin-left: 5%;
-    margin-right: 55%;
+    margin-left: 3%;
+    margin-right: 50%;
 }
 
 .login{
@@ -103,7 +103,7 @@ opacity:1;
     position: relative;
     overflow: hidden;
     background-color: #3b5998;
-    margin-right: 380px;
+    margin-right: 440px;
     margin-left: 270px;
     z-index: 3;
 }
@@ -142,6 +142,7 @@ opacity:1;
     height: 600px;
     margin-left:200px;
     margin-right:200px;
+    margin-top:15px;
 }
 
 
@@ -448,6 +449,10 @@ span{
     margin-left: 1px;
     border-radius: 5px;
 }
+#instagramButton svg {
+height:100px;
+width:100px;
+}
        
 
 /*---------------------------instagrm end---------------------*/
@@ -492,6 +497,7 @@ span{
     background: white;
     height: 300px;
     width: auto;
+    margin-top:20px;
     margin-left: 10%;
     margin-right: 10%;
     border: red solid 3px;

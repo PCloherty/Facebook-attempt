@@ -59,12 +59,12 @@ opacity:1;
     opacity: 1;
 }
 .logo{
-    margin-left: 5%;
-    margin-right: 55%;
+    margin-left: 3%;
+    margin-right: 50%;
 }
 
 .login{
-    /*padding:1px;*/
+    margin-left: 7%;
     font-size:12px;
     color: #fff;
     text-align: left;
@@ -103,7 +103,7 @@ opacity:1;
     position: relative;
     overflow: hidden;
     background-color: #3b5998;
-    margin-right: 380px;
+    margin-right: 440px;
     margin-left: 270px;
     z-index: 3;
 }
@@ -139,7 +139,7 @@ opacity:1;
     display: none;
     padding: 6px 12px;
     border-top: none;
-    height: 600px;
+    height: 800px;
     margin-left:200px;
     margin-right:200px;
 }
@@ -169,12 +169,11 @@ opacity:1;
 }
 /*---------------------------------------------------------------Facebook signup------------------------------------------------*/
 .facebookContent {
-    text-align: center;
-    background-color: #274177;
-    font: 20px;
-    width: 100%;
-    margin: 0;
-    display: block;
+    background-color:#274177;
+    height: 800px;
+    border:#274177 1px solid;
+    padding-right:120px;
+    text-align:center;
 }
 
 .content h3{
@@ -228,8 +227,9 @@ opacity:1;
     width: 175px;
     font-size:16px;
     border: grey solid 1px;
-    padding: 10px 8px 10px 5px;
+    padding: 10px 25px 10px 25px;
     margin-bottom:10px;
+    margin-right: 45px;
     margin-left: 125px;
     border-radius: 5px;
 }
@@ -237,7 +237,8 @@ opacity:1;
     width: 175px;
     font-size: 16px;
     border: grey solid 1px;
-    padding: 10px 8px 10px 5px;
+    padding: 10px 25px 10px 25px;
+    margin-right: 45px;
     margin-bottom: 10px;
     margin-right: 125px;
     border-radius: 5px;
@@ -275,13 +276,14 @@ select{
 }
 .cRow7Col1{
     height: auto;
-    margin-left:150px;
+    
 }
 #cRow7Col2{
     font-size: 10px;
     height: 20px;
     text-decoration: none;
-    margin-right:100px
+    margin-right:100px;
+
    
 }
 
@@ -292,10 +294,9 @@ select{
     position: relative;
     max-width: 300px;
     height: auto;
-    right:200px;
+    left: 150px;
     bottom: 100px;
     background-color: white;
-    
     opacity: 0;
 }
 
@@ -327,6 +328,7 @@ span{
 
 
 #Facebook .gender{
+
 
     padding-top: 20px;
     padding-bottom: 20px;
@@ -461,7 +463,6 @@ span{
     display: none;
     padding: 6px 12px;
     border-top: none;
-    height: 600px;
     margin-left: 200px;
     margin-right: 200px;
     
